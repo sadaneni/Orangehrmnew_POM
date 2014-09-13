@@ -6,9 +6,6 @@ import org.openqa.selenium.WebDriver;
 
 public class LoginPageClass extends BasePageClass {
 
-        public LoginPageClass(WebDriver driver){
-            super(driver);// this is the constructor for method used in baseclass as (this.driver) bcoz we r using extends
-        }
 
         // code for ----> now we r in login page and entering login credentials
         public void LoginAttempt(String username, String password){

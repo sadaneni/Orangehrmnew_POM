@@ -6,15 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class BasePageClass {
 
 
-
-        static WebDriver driver;
-
-        public BasePageClass(WebDriver driver){
-
-            this.driver= driver;// to use driver in all classes like, addskillpage, homepage, loginpage etc..
-            // by super(driver) which u can c in all classes
-
-        }
+    protected static WebDriver driver;
 
         // code below for---> clicking on logout linktext
         public static void logOut(){

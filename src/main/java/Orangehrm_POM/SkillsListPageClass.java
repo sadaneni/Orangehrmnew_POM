@@ -6,9 +6,6 @@ import org.openqa.selenium.WebDriver;
 
 public class SkillsListPageClass extends BasePageClass {
 
-        public SkillsListPageClass(WebDriver driver){
-            super(driver);// this is the constructor for method used in baseclass as (this.driver) bcoz we r using extends
-        }
 
         //code below for----> clicking on add button in skill page in the site
         public void gotoAddSkills(){
