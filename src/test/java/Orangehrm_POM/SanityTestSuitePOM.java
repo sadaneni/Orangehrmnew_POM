@@ -11,22 +11,6 @@ import org.openqa.selenium.WebDriver;
    public class SanityTestSuitePOM extends BasePageClass{
 
 
-       @BeforeClass
-        public static void setUP(){
-
-            driver = new FirefoxDriver();
-            driver.get("http://demo.orangehrmlive.com/symfony/web/index.php/auth/login");
-
-
-        }
-
-        @AfterClass
-        public static void tearDown(){
-
-            driver.quit();
-            driver = null;
-
-        }
 
         @Test
         public void userCanAddskills(){// this method represents only one test case
